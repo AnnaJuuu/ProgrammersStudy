@@ -1,12 +1,10 @@
 class Solution {
-    fun solution(angle: Int): Int {
-        return when(angle) {
-            in 1..89 -> 1
-            90 -> 2
-            in 91..179 -> 3
-            180 -> 4
-            else -> 0  
-        }
+    fun solution(angle: Int): Int 
+    {
+        return if(angle < 90) {1}
+        else if(angle==90) {2}
+        else if(angle<180) {3}
+        else if(angle==180) {4}
+        else 0
     }
 }
-
