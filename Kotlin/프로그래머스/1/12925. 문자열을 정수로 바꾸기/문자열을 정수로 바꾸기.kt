@@ -1,8 +1,4 @@
 class Solution 
 {
-    fun solution(s: String): Int 
-    {
-        val answer = s.toInt()
-        return answer
-    }
+    fun solution(s: String): Int = s.toInt()
 }
